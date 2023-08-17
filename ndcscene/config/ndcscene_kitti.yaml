@@ -1,0 +1,46 @@
+#dataset: "NYU" # "kitti", "kitti_360"
+dataset: "kitti"
+
+kitti_root: '/root/autodl-tmp/DATA/NDCscene_SemanticKitti'
+kitti_preprocess_root: '/root/autodl-tmp/DATA/NDCscene_SemanticKitti/preprocess'
+kitti_logdir: '/root/autodl-tmp/NDCScene_dev_coord/ndcscene/exp/kitti_lr_0.1_1_xybr_full_1'
+output_path: '/root/autodl-tmp/NDCScene_dev_coord/ndcscene/exp/kitti_lr_0.1_1_xybr_full_1_val/output'
+
+NYU_root: '/root/autodl-tmp/DATA/NDCscene_NYU/depthbin'
+NYU_preprocess_root: '/root/autodl-tmp/DATA/NDCscene_NYU/preprocess'
+logdir: '/root/autodl-tmp/NDCScene_dev_coord/ndcscene/exp/trial_lr_0.1_1_xybr'
+
+enable_log: true
+exp_prefix: "exp"
+
+num_workers_per_gpu: 3 
+batch_size: 4
+n_gpus: 4
+run: 1
+lr: 1e-4
+weight_decay: 1e-4
+milestones: [25, ]
+max_epochs: 30
+
+resize: false
+
+frustum_size: 8
+n_relations: 4
+context_prior: true
+
+basemodel_name: tf_efficientnet_b7_ns
+
+CE_ssc_loss: true
+
+relation_loss: true
+sem_scal_loss: true
+geo_scal_loss: true
+fp_loss: true
+
+miou_loss: false
+aux_ssc_loss: false
+
+
+
+
+
