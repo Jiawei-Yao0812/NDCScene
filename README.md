@@ -1,45 +1,21 @@
 # NDC-Scene: Boost Monocular 3D Semantic Scene Completion in Normalized Device Coordinates Space
+Official PyTorch implementation for the ICCV 2023 paper.
 
+![Avatar](teaser.png)
 
 **NDC-Scene: Boost Monocular 3D Semantic Scene Completion in Normalized Device Coordinates Space**\
-Jiawei Yao
-Chuming Li
-Keqiang Sun
-Yingjie Cai
+Jiawei Yao*, 
+[Chuming Li*](https://scholar.google.com.sg/citations?user=ZfB7vEcAAAAJ&hl=en), 
+[Keqiang Sun*](https://keqiangsun.github.io/), 
+[Yingjie Cai](https://yjcaimeow.github.io/), 
+[Hao Li](https://cpsxhao.github.io/), 
+[Wanli Ouyang](https://wlouyang.github.io/), 
+[Hongsheng Li](http://www.ee.cuhk.edu.hk/~hsli/) 
 
-ICCV 2023 \
-[![arXiv](https://img.shields.io/badge/arXiv%20%2B%20supp-2112.00726-purple)](https://arxiv.org/pdf/2303.13654) 
-
-If you find this work or code useful, please cite our paper and [give this repo a star](https://github.com/Alexander-Yao/NDCScene/stargazers):
-```
-@inproceedings{yao2023ndcscene,
-    title={NDC-Scene: Boost Monocular 3D Semantic Scene Completion in Normalized Device Coordinates Space}, 
-    author={Jiawei Yao, Chuming Li, Keqiang Sun and Yingjie Cai},
-    booktitle={ICCV},
-    year={2023}
-}
-```
-
-# Table of Content
-- [News](#news)
-- [Preparing NDCScene](#preparing-ndcscene)
-  - [Installation](#installation)  
-  - [Datasets](#datasets)
-  - [Pretrained models](#pretrained-models)
-- [Running NDCScene](#running-ndcscene)
-  - [Training](#training)
-  - [Evaluating](#evaluating)
-- [Inference & Visualization](#inference--visualization)
-  - [Inference](#inference)
-  - [Visualization](#visualization)
-- [License](#license)
+\* equal contribution
 
 
-# Preparing NDCScene
-
-## Installation
-
-
+## Requirements
 
 1. Create conda environment:
 
@@ -127,8 +103,6 @@ $ python ndcscene/data/NYU/preprocess.py NYU_root=$NYU_ROOT NYU_preprocess_root=
 ```
 
 
-# Running NDCScene
-
 ## Training
 
 To train NDCScene with SemanticKITTI, type:
@@ -207,7 +181,6 @@ $ python ndcscene/scripts/eval_ndcscene.py \
     n_gpus=1 batch_size=1
 ```
 
-# Inference & Visualization
 
 ## Inference
 
@@ -248,14 +221,10 @@ $ python ndcscene/scripts/generate_output.py \
 
 ## Visualization
 
-**NOTE:** if you have trouble using mayavi, you can use an alternative [visualization code using Open3D](https://github.com/astra-vision/NDCScene/issues/68#issuecomment-1637623145).
+
 
 
 We use mayavi to visualize the predictions. Please install mayavi following the [official installation instruction](https://docs.enthought.com/mayavi/mayavi/installation.html). Then, use the following commands to visualize the outputs on respective datasets.
-
-If you have **trouble installing mayavi**, you can take a look at our [**mayavi installation guide**](https://anhquancao.github.io/blog/2022/how-to-install-mayavi-with-python-3-on-ubuntu-2004-using-pip-or-anaconda/).
-
-If you have **trouble fixing mayavi viewpoint**, you can take a look at [**our tutorial**](https://anhquancao.github.io/blog/2022/how-to-define-viewpoint-programmatically-in-mayavi/).
 
 
 You also need to install some packages used by the visualization scripts using the commands:
@@ -279,6 +248,9 @@ $ cd NDCScene/
 $ python ndcscene/scripts/visualization/kitti_vis_pred.py +file=/path/to/output/file.pkl +dataset=kitt
 ```
 
+## Citation
 
-# License
-NDCScene is released under the [Apache 2.0 license](./LICENSE).
+
+
+## Acknowledgement
+This project is built based on MonoScene. We thank the contributors of the prior project for building such excellent codebase and repo. Please refer to this repo (https://github.com/astra-vision/MonoScene) for more documentations and details.
