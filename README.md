@@ -17,12 +17,11 @@ Jiawei Yao*,
 [![Project page](https://img.shields.io/badge/Project%20Page-NDCScene-red)](https://jiawei-yao0812.github.io/NDC-Scene/)
 
 
-# Teaser
 
 
-|NYUv2 | SemanticKITTI |
-|:------------:|:------:|
-|<img src="./teaser/NYU.gif"  />|<img src="./teaser/KITTI.gif" />|
+|NYUv2 | SemanticKITTI|
+|:------------:|:------------:|
+|<img src="./NYU.gif" width = "500" height = "300" />|<img src="./KITTI(teaser) .gif" />|
 
 
 ## Requirements
