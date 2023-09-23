@@ -21,7 +21,7 @@ Jiawei Yao*,
 
 |NYUv2 | SemanticKITTI|
 |:------------:|:------------:|
-|<img src="./NYU.gif" width = "500" height = "300" />|<img src="./KITTI(teaser) .gif" />|
+|<img src="./NYU.gif" width = "350" height = "200" />|<img src="./KITTI(teaser) .gif" />|
 
 
 ## Requirements
