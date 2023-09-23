@@ -1,7 +1,7 @@
 # NDC-Scene: Boost Monocular 3D Semantic Scene Completion in Normalized Device Coordinates Space
 Official PyTorch implementation for the ICCV 2023 paper.
 
-![Avatar](teaser.png)
+
 
 **NDC-Scene: Boost Monocular 3D Semantic Scene Completion in Normalized Device Coordinates Space**\
 Jiawei Yao*, 
@@ -13,6 +13,16 @@ Jiawei Yao*,
 [Hongsheng Li](http://www.ee.cuhk.edu.hk/~hsli/) 
 
 \* equal contribution
+
+[![Project page](https://img.shields.io/badge/Project%20Page-NDCScene-red)](https://jiawei-yao0812.github.io/NDC-Scene/)
+
+
+# Teaser
+
+
+|NYUv2 | SemanticKITTI |
+|:------------:|:------:|
+|<img src="./teaser/NYU.gif"  />|<img src="./teaser/KITTI.gif" />|
 
 
 ## Requirements
@@ -102,6 +112,9 @@ $ python ndcscene/data/NYU/preprocess.py NYU_root=$NYU_ROOT NYU_preprocess_root=
 
 ```
 
+## Pretrained models
+
+Download NDCScene pretrained models on [NYUv2 & SemanticKITTI](https://drive.google.com/file/d/1hM7oPlJyTM60ZG9wq6qu3f1hUZTVqpRO/view?usp=sharing).
 
 ## Training
 
