@@ -15,6 +15,7 @@ Jiawei Yao*,
 \* equal contribution
 
 [![Project page](https://img.shields.io/badge/Project%20Page-NDCScene-red)](https://jiawei-yao0812.github.io/NDC-Scene/)
+[![arXiv](https://img.shields.io/badge/arXiv-2306.15670-yellow?logo=arXiv&logoColor=yellow)](https://arxiv.org/abs/2309.14616)
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ndc-scene-boost-monocular-3d-semantic-scene/3d-semantic-scene-completion-from-a-single)](https://paperswithcode.com/sota/3d-semantic-scene-completion-from-a-single?p=ndc-scene-boost-monocular-3d-semantic-scene)
 
