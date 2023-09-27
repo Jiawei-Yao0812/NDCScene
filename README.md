@@ -15,6 +15,7 @@ Jiawei Yao*,
 \* equal contribution
 
 [![Project page](https://img.shields.io/badge/Project%20Page-NDCScene-red)](https://jiawei-yao0812.github.io/NDC-Scene/)
+
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ndc-scene-boost-monocular-3d-semantic-scene/3d-semantic-scene-completion-from-a-single)](https://paperswithcode.com/sota/3d-semantic-scene-completion-from-a-single?p=ndc-scene-boost-monocular-3d-semantic-scene)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ndc-scene-boost-monocular-3d-semantic-scene/3d-semantic-scene-completion-from-a-single-1)](https://paperswithcode.com/sota/3d-semantic-scene-completion-from-a-single-1?p=ndc-scene-boost-monocular-3d-semantic-scene)
 
