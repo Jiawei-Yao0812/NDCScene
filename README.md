@@ -265,8 +265,16 @@ $ python ndcscene/scripts/visualization/kitti_vis_pred.py +file=/path/to/output/
 ```
 
 ## Citation
-
-
+```
+@misc{yao2023ndcscene,
+      title={NDC-Scene: Boost Monocular 3D Semantic Scene Completion in Normalized Device Coordinates Space}, 
+      author={Jiawei Yao and Chuming Li and Keqiang Sun and Yingjie Cai and Hao Li and Ouyang Wanli and Hongsheng Li},
+      year={2023},
+      eprint={2309.14616},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
 
 ## Acknowledgement
 This project is built based on MonoScene. We thank the contributors of the prior project for building such excellent codebase and repo. Please refer to this repo (https://github.com/astra-vision/MonoScene) for more documentations and details.
