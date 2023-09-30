@@ -266,13 +266,14 @@ $ python ndcscene/scripts/visualization/kitti_vis_pred.py +file=/path/to/output/
 
 ## Citation
 ```
-@misc{yao2023ndcscene,
-      title={NDC-Scene: Boost Monocular 3D Semantic Scene Completion in Normalized Device Coordinates Space}, 
-      author={Jiawei Yao and Chuming Li and Keqiang Sun and Yingjie Cai and Hao Li and Ouyang Wanli and Hongsheng Li},
-      year={2023},
-      eprint={2309.14616},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@InProceedings{Yao_2023_ICCV,
+    author    = {Yao, Jiawei and Li, Chuming and Sun, Keqiang and Cai, Yingjie and Li, Hao and Ouyang, Wanli and Li, Hongsheng},
+    title     = {NDC-Scene: Boost Monocular 3D Semantic Scene Completion in Normalized Device Coordinates Space},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2023},
+    pages     = {9455-9465}
+
 }
 ```
 
