@@ -96,7 +96,7 @@ $ python ndcscene/data/semantic_kitti/preprocess.py kitti_root=$KITTI_ROOT kitti
 
 ### NYUv2
 
-1. Download the [NYUv2 dataset](https://www.rocq.inria.fr/rits_files/computer-vision/ndcscene/nyu.zip).
+1. Download the [NYUv2 dataset](https://drive.google.com/file/d/1n8rXSVpWK_Vjcu2P1KKTswBdvEI-U7Uv/view?usp=sharing).
 
 2. Create a folder to store NYUv2 preprocess data at `/path/to/NYU/preprocess/folder`.
 
