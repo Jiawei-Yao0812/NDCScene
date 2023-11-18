@@ -143,7 +143,7 @@ def _downsample_label(label, voxel_size=(240, 144, 240), downscale=4):
     return label_downscale
 
 
-@hydra.main(config_name="../../config/ndcscene.yaml")
+@hydra.main(config_name="../../config/ndcscene_nyu.yaml")
 def main(config: DictConfig):
     scene_size = (240, 144, 240)
     for split in ["train", "test"]:
